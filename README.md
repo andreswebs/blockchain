@@ -24,3 +24,10 @@ The leader will send the nonce and timestamp back to the web service before requ
 
 ### Heartbeat
 
+- [] Implement two servers initialization
+- [] Implement server creation in main
+- [] Store server address in a local environment
+- [] Remove this local environment when the process is finished
+- [] Implement heartbeat request each 5 seconds
+- [] Implement heartbeat reply
+- [] Unify the servers creation with local variable to set server quantity and main should call a `server` method to instantiate the server in the set quantity
